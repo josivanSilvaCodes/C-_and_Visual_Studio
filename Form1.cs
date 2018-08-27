@@ -18,7 +18,6 @@
 // Então cole este código acima do código que você verá
 // Isso é tudo!
 
-
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -41,7 +40,7 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
             timer.Enabled = true;
-            timer.Interval = 100;  
+            timer.Interval = 100;
             timer.Tick += new EventHandler(TimerCallback);
         }
         private void TimerCallback(object sender, EventArgs e)
@@ -58,6 +57,10 @@ namespace WindowsFormsApp1
             g.FillRectangle(Brushes.Red, x, y, 20, 20);
             base.OnPaint(e);
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
-
