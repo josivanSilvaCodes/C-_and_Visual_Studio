@@ -148,7 +148,7 @@ public class Game : Form
     {
         Game ga = new Game();     // Creating the form window
         ga.Size = new Size(500, 500);
-        ga.Text = "Jogo Snake";
+        ga.Text = "Jogo Gato-Cacchorro";
         ga.StartPosition = FormStartPosition.CenterScreen;
         Application.EnableVisualStyles();
         Application.Run(ga);   // Running the form window  
