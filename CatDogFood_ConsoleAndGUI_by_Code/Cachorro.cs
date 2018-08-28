@@ -1,7 +1,7 @@
-﻿using System;
+using System;
 using System.Drawing;
 
-class Cacchorro
+class Cachorro
 {
     public int x;
     public int y;
@@ -10,7 +10,7 @@ class Cacchorro
     public int dx;
     public int dy;
 
-    public Cacchorro(int px, int py)
+    public Cachorro(int px, int py)
     {
         x = px;
         y = py;
@@ -24,12 +24,6 @@ class Cacchorro
     {
         x += dx;
         y += dy;
-
-
     }
-
     public void Desenhar(Graphics g) { g.FillRectangle(Brushes.Black, x, y, tamanhox, tamanhoy); }
-
 }
-
-
