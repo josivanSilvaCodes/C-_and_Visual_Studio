@@ -1,5 +1,5 @@
 /* Hello World Code for a interactive window-based App*/
-/* That is a basic program to preparing enviroment to develop electronic games in C# /*
+/* That is a basic program to preparing enviroment to develop electronic games in C# */
 
 using System;               // Namespaces that have classes to our use/reuse
 using System.Drawing;       // The word "using" allows us to reuse these classes and libraries of classes
